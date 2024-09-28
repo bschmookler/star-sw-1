@@ -25,13 +25,13 @@
 #include "TPad.h"
 #include "TView.h"
 
+#include "StVertex.h"
 #include "StEvent.h"
 #include "StObject.h"
 #include "StHit.h"
 #include "StTrack.h"
 #include "StGlobalTrack.h"
 #include "StTrackNode.h"
-#include "StVertex.h"
 #include "StTrackGeometry.h"
 #include "StTrackDetectorInfo.h"
 // For L3 filter
