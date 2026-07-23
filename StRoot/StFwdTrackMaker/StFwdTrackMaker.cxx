@@ -1386,6 +1386,7 @@ std::string StFwdTrackMaker::defaultConfig = R"(
                 <!-- <Criteria name="Crit3_PT" min="0" max="100" /> -->
 				<!-- <Criteria name="Crit3_ChangeRZRatio" min="0.8" max="1.21" /> -->
                 <!-- <Criteria name="Crit3_2DAngle" min="0" max="1" /> -->
+		<Criteria name="Crit3_NoZigZag_MV" min="-0.01" max="100" />
             </ThreeHitSegments>
 
         </Iteration>

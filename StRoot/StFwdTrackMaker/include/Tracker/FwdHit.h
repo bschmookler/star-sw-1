@@ -86,6 +86,7 @@ class FwdHit : public KiTrack::IHit {
         _mcTrack = mcTrack;
         _hit = hit;
         _genfit_plane_index = genfit_plane_index;
+	_thetaMV = atan2(y,x); // store phi in thetaMV for use by Crit3_NoZigZag_MV
 
         // these are the sector ids mapped to layers
         static const std::array<int,14> sector_map = {0, 0, 0, 0, 0, 1, 2, 0, 0, 3, 4, 5, 6, 7}; // ftsref6a
